@@ -1,0 +1,232 @@
+.article{
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 50px ;
+}
+.art-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.art-info{
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+}
+
+.art-info h3{
+  color: #2F2E41 ;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26.4706px;
+  line-height: 32px;
+  margin: 0 15px ;
+}
+
+.art-info p{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  /* text-align: center; */
+  color: rgba(47, 46, 65, 0.5);
+  font-family: 'Helvetica Neue';
+}
+.art-info img{
+  width: 50px;
+  height: 50px;
+}
+
+.share-me{
+  width: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.share-me .click{
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2F2E41;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.share-me .click:hover{
+  background-color:darkslategrey;
+  box-shadow: 0 0 5px gray;
+  /* width: 8rem; */
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1{
+  color: #2F2E41;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin: 15px 0;
+}
+
+.main p{
+  color: #9797A0;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: justify;
+}
+
+
+.sim-art{
+  margin: 30px 0;
+}
+
+.sim-art h1{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #2F2E41;
+}
+
+
+.commonArticle{
+  display: flex;
+  flex-basis: calc(33% - 2rem);
+  width: 100%;
+  width: 1240px;
+  height: 616px;
+  border-radius: 25px;
+}
+
+.btn3{
+  border-radius: 10px;
+  background-color: #2F2E41;
+  width: 170px;
+  height: 45px;
+  border: none;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn2{
+  border-radius: 10px;
+  background-color: #2F2E41;
+  width: 170px;
+  height: 45px;
+  border: none;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn1{
+  border-radius: 10px;
+  background-color: #2F2E41;
+  width: 170px;
+  height: 45px;
+  border: none;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.btn2:hover{
+  background-color:darkslategrey;
+  box-shadow: 0 0 5px gray;
+  width: 10rem;
+}
+.btn1:hover{
+  background-color:darkslategrey;
+  box-shadow: 0 0 5px gray;
+  width: 10rem;
+}
+.btn3:hover{
+  background-color:darkslategrey;
+  box-shadow: 0 0 5px gray;
+  width: 10rem;
+}
+.commonArticle h2{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27.6117px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.commonArticle p{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  /* align-items: center; */
+  margin: 15px;
+  max-width: 372px;
+}
+
+.mymodal{
+  width: 60vw;
+  height: 80vh;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 25vw;
+  top: 25vh;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  /* display: none; */
+}
+
+.title {
+  border-radius: 5px;
+  border: 2px solid rgba(47, 46, 65, 0.15);
+  font-size: 20px;
+  padding-left: 15px;
+  background-color: #F3F2FF80;
+  width: 83%;
+  height: 30px;
+  outline: none;
+}
+
+.content{
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: #F3F2FF80;
+}
+
+.mypost {
+  width: 100px;
+  padding: 12px;
+  /* margin-right: 1500px; */
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s linear;
+}
+.mypost:hover{
+  background-color:darkslategrey;
+  box-shadow: 0 0 5px gray;
+  width: 8rem;
+}

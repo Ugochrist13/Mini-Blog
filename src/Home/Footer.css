@@ -1,0 +1,41 @@
+.footer-main-container {
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(211, 201, 201);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-container .footer-nav-ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    font-size: 20px;
+    border-bottom: solid 1px gray;
+    margin: 6rem 5rem 2rem 5rem;
+    padding-bottom: 1rem;
+    /* border: 1px red solid; */
+}
+
+.footer-container .footer-nav-ul .footer-blog {
+    font-size: 24px;
+}
+
+.footer-images .footer-img-ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-img {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 56.1px;
+    width: 56.1px;
+}
