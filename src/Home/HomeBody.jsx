@@ -4,14 +4,14 @@ import moment from "moment/moment";
 import "./HomeBody.css";
 import { Link } from "react-router-dom";
 // import "animate.css/animate.min.css";
-import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer, toast, cssTransition } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast, cssTransition } from "react-toastify";
 
 
-const bounce = cssTransition({
-    enter: "animate__animated animate__bounceIn",
-    exit: "animate__animated animate__bounceOut"
-  });
+// const bounce = cssTransition({
+//     enter: "animate__animated animate__bounceIn",
+//     exit: "animate__animated animate__bounceOut"
+//   });
 
 const Home = () => {
   const [posts, setposts] = useState([]);
@@ -22,9 +22,9 @@ const Home = () => {
         console.log(response.data);
         setposts(response.data);
       }).catch(err => {
-        toast.dark("Something went wrong", {
-            transition: bounce
-        })
+        // toast.dark("Something went wrong", {
+        //     transition: bounce
+        // })
       })
   });
 

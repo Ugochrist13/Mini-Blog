@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <header>
-        <h3>SkillupAfrica Blog</h3>
+        <h3>GentTech Blog</h3>
       </header>
 
       <nav className="nav">
@@ -33,20 +33,14 @@ const NavBar = () => {
 
         <div className="clicks">
           <div className="icons">
-            <a href="https://www.facebook.com/skillupafrica1" target="_blank">
+            <a href="https://facebook.com/profile.php?id=100080268887740" target="_blank">
               <img src={fsvg} alt="" />
             </a>
-            <a href="https://twitter.com/SkillupAfrica1" target="_blank">
+            <a href="https://twitter.com/Christianugoo06" target="_blank">
               <img src={tsvg} alt="" />
             </a>
-            <a href="https://www.instagram.com/_skillupafrica/" target="_blank">
+            <a href="https://www.instagram.com/genttech" target="_blank">
               <img src={isvg} alt="" />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCSLjipbYcJixWsZu_TeW49g"
-              target="_blank"
-            >
-              <img src={ysvg} alt="" />
             </a>
           </div>
 
