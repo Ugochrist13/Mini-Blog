@@ -60,7 +60,7 @@ const Home = () => {
           Load more articles
         </button>
       </div>
-      <ToastContainer transition={bounce} />
+      {/* <ToastContainer transition={bounce} /> */}
     </div>
   );
 };
